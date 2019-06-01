@@ -64,7 +64,6 @@ public class Client {
 }
 
 
-
 class Test implements Cloneable{
 	public Test() {
 		try {
