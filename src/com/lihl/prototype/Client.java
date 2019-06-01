@@ -45,6 +45,7 @@ public class Client {
 		System.out.println(sheep4);
 		
 		//耗时Test
+		System.out.println("==========耗时Test==================");
 		long start = System.currentTimeMillis();
 		for (int i = 0; i < 1000; i++) {
 			new Test();
@@ -67,7 +68,7 @@ public class Client {
 class Test implements Cloneable{
 	public Test() {
 		try {
-			Thread.sleep(10);
+			Thread.sleep(5);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
