@@ -23,7 +23,7 @@ public class Client {
 		System.out.println(sheep1);
 		//深克隆
 		//1.克隆属性
-		System.out.println("==========深克隆：属性克隆==================");
+		System.out.println("==========深克隆：属性克隆===============");
 		Sheep2 sheep2 = new Sheep2("喜洋洋", date);
 		System.out.println(sheep2);
 		
@@ -32,7 +32,7 @@ public class Client {
 		sheep2.setName("美羊羊");
 		System.out.println(sheep3);
 		//2.序列化及反序列化克隆
-		System.out.println("==========深克隆：序列化及反序列化克隆==================");
+		System.out.println("==========深克隆：序列化及反序列化克隆===============");
 		System.out.println(sheep);
 		ByteArrayOutputStream bos = new ByteArrayOutputStream();
 		ObjectOutputStream oos = new ObjectOutputStream(bos);
@@ -45,7 +45,7 @@ public class Client {
 		System.out.println(sheep4);
 		
 		//耗时Test
-		System.out.println("==========耗时Test==================");
+		System.out.println("==========耗时Test===============");
 		long start = System.currentTimeMillis();
 		for (int i = 0; i < 1000; i++) {
 			new Test();
