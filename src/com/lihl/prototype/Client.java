@@ -6,7 +6,16 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Date;
 
-
+/**
+ * – 通过new产生一个对象需要非常繁琐的数据准备或访问权限，则可以使用原型模式。
+– 就是java中的克隆技术，以某个对象为原型，复制出新的对象。显然，新的对象具备原型对象的特点
+– 优势有：效率高(直接克隆，避免了重新执行构造过程步骤) 。
+– 克隆类似于new，但是不同于new。new创建新的对象属性采用的是默认值。克隆出的
+对象的属性值完全和原型对象相同。并且克隆出的新对象改变不会影响原型对象。然后，
+再修改克隆对象的值。
+ * @author lihl
+ *
+ */
 public class Client {
 
 	public static void main(String[] args) throws Exception {

@@ -6,6 +6,18 @@ import com.lihl.factory.abstractfactory.LowCarFactory;
 import com.lihl.factory.abstractfactory.LuxuryCarFactory;
 import com.lihl.factory.abstractfactory.Seat;
 
+
+/**
+ * 应用场景
+– JDK中Calendar的getInstance方法
+– JDBC中Connection对象的获取
+– Hibernate中SessionFactory创建Session
+– spring中IOC容器创建管理bean对象
+– XML解析时的DocumentBuilderFactory创建解析器对象
+– 反射中Class对象的newInstance()
+ * @author lihl
+ *
+ */
 public class Client {
 
 	public static void main(String[] args) {
