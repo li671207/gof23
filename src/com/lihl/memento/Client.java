@@ -1,8 +1,11 @@
 package com.lihl.memento;
 
 /**
- * • 核心 – 就是保存某个对象内部状态的拷贝，这样以后就可以将该对象恢复到 原先的状态。 • 结构： – 源发器类Originator –
- * 备忘录类Memento – 负责人类CareTaker
+ * • 核心 – 就是保存某个对象内部状态的拷贝，这样以后就可以将该对象恢复到 原先的状态。 
+ * • 结构： 
+ * – 源发器类Originator 
+ * – 备忘录类Memento 
+ * – 负责人类CareTaker
  * 
  * 
  * – 棋类游戏中的，悔棋 
