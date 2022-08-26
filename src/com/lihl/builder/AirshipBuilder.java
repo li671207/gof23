@@ -4,7 +4,7 @@ public interface AirshipBuilder {
 	
 	Engine builderEngine();
 	
-	OrbitalModule builderOrbitaModule();
+	OrbitalModule builderOrbitalModule();
 	
 	EscapeTower builderEscapeTower();
 

@@ -9,8 +9,8 @@ public class MyAirshipBuilder implements AirshipBuilder {
 	}
 
 	@Override
-	public OrbitalModule builderOrbitaModule() {
-		System.out.println("MyAirshipBuilder.builderOrbitaModule()");
+	public OrbitalModule builderOrbitalModule() {
+		System.out.println("MyAirshipBuilder.builderOrbitalModule()");
 		return new OrbitalModule("我的轨道舱");
 	}
 

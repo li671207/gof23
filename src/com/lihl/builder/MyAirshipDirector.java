@@ -13,7 +13,7 @@ public class MyAirshipDirector implements AirshipDirector {
 	public Airship directAirShip() {
 		Engine engine = builder.builderEngine();
 		EscapeTower escapeTower = builder.builderEscapeTower();
-		OrbitalModule orbitalModule = builder.builderOrbitaModule();
+		OrbitalModule orbitalModule = builder.builderOrbitalModule();
 		
 		Airship airship = new Airship();
 		airship.setEngine(engine);
